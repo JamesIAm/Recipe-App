@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Recipe from "./Recipe";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Recipe">
+        <Recipe />
+      </div>
     </div>
   );
 }
 
 export default App;
+// "plain flour": "85g",
+// "cocoa powder": "40g",
+// "white chocolate": "50g",
+// "milk chocolate": "50g",
+// "egg": "3",
+// "golden caster sugar": "275g"
